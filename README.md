@@ -33,6 +33,7 @@ Page Ruler
 Redux DevTools
 eJOY AI Dictionary
 mymind — An extension for your mind
+Single File
 ```
 
 ## 3. Package Ubuntu
@@ -58,3 +59,18 @@ sudo apt install mysql-server
 ```
 
 Cần cài thêm package `nvm`
+
+## 4. Remote Desktop ubuntu
+
+```
+sudo apt update
+sudo apt install xrdp
+sudo systemctl enable xrdp
+systemctl status xrdp
+sudo ufw allow from any to any port 3389 proto tcp
+ip add
+```
+
+<img width="849" height="463" alt="image" src="https://github.com/user-attachments/assets/176a501b-ce7a-4719-adea-461f9d530102" />
+
+Xong nhớ Logout trên ubuntu nhé, rồi remote desktop như bình thường với ip đó
