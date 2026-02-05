@@ -33,7 +33,7 @@ Page Ruler
 Redux DevTools
 eJOY AI Dictionary
 mymind — An extension for your mind
-Single File
+Single File (Website --> HTML Single File)
 ```
 
 ## 3. Package Ubuntu
