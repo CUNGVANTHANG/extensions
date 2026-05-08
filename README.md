@@ -74,3 +74,12 @@ ip add
 <img width="849" height="463" alt="image" src="https://github.com/user-attachments/assets/176a501b-ce7a-4719-adea-461f9d530102" />
 
 Xong nhớ Logout trên ubuntu nhé, rồi remote desktop như bình thường với ip đó
+
+## 5. Cài đặt Homebrew trên macbook
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew --version
+```
